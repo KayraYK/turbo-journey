@@ -1,40 +1,153 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Writing Assignments</title>
-  </head>
-  <body style="background-color:#F4DEC8;">
-      <h1 style="font-size:180%; font-family:monospace; text-align:center">Writing Assignment 1</h1>
-      <h3 style="font-family:monospace;font-size:140%;">What is the software development process?</h3>
-        <p style="font-family:monospace; font-size:140%;">
+   
+<head>
+   <title>Writing Assignments</title>      
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: monospace;
+}
+
+.tablink {
+  background-color: #D5D5D1;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 22px;
+  width: 25%;
+  font-family: monospace;
+}
+
+.tablink:hover {
+  background-color: #B1B1AD;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  font-size: 19px;
+}
+
+#Home {background-color: #F4DEC8;}
+#News {background-color: #90F1DB;}
+#Contact {background-color: #BD9DF6;}
+#About {background-color: #F7AE4B;}
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, '#F4DEC8')" id="defaultOpen">Writing Assignment 1</button>
+<button class="tablink" onclick="openPage('News', this, '#90F1DB')">Writing Assignment 2</button>
+<button class="tablink" onclick="openPage('Contact', this, '#BD9DF6')">Writing Assignment 3</button>
+<button class="tablink" onclick="openPage('About', this, '#F7AE4B')">Writing Assignment 4</button>
+
+<div id="Home" class="tabcontent">
+
+  <h1>Writing Assignment 1</h1>
+  <h3>What is the software development process?</h3>
+  <p> 
       The software development process is a step-by-step guide to creating well-built software applications. 
       The phases of the process are gathering requirements and problem specifications, designing the software, implementing the code, verifying the quality and functionality, and maintaining the software after deployment. 
       This entire process is crucial to minimize flaws in your final software product. 
       However, designers may return to certain phases at their discretion. 
       The overall process is quite meticulous. However, it is to ensure high quality in the final product and that all requirements are met.
-        </p>
-    <hr>
-      <h3 style="font-family:monospace;font-size:140%;">Why is software design important?</h3>
-        <p style="font-family:monospace; font-size:140%;">
+  </p>
+  <hr>
+  <h3>Why is software design important?</h3>
+  <p>
       Software design is important because it is an essential phase of the software development process. 
-       As the second step, this is the second most significant element of the entire process as it sets the foundation for the following steps. 
-       For the software design process to go well, it is crucial to understand the requirements. 
-       Furthermore, factors like the potential users and the problem the software aims to solve are also meaningful. 
-       After this initial analysis, the designer converts the acquired data into a detailed blueprint to create the software. 
-       An overall well-designed software plan will increase the efficiency of implementation and lead to fewer errors and a more user-friendly product. 
-       This initial plan is vital to guide the designers in building the software product that meets the requirements and expectations. 
-        </p>
-    <hr>
-      <h3 style="font-family:monospace;font-size:140%;">Give an example of a software that you personally used that you think was designed well and explain why.</h3>
-        <p style="font-family:monospace; font-size:140%;">
+      As the second step, this is the second most significant element of the entire process as it sets the foundation for the following steps. 
+      For the software design process to go well, it is crucial to understand the requirements. 
+      Furthermore, factors like the potential users and the problem the software aims to solve are also meaningful. 
+      After this initial analysis, the designer converts the acquired data into a detailed blueprint to create the software. 
+      An overall well-designed software plan will increase the efficiency of implementation and lead to fewer errors and a more user-friendly product. 
+      This initial plan is vital to guide the designers in building the software product that meets the requirements and expectations. 
+   </p>
+   <hr>
+   <h3>Give an example of a software that you personally used that you think was designed well and explain why.</h3>
+   <p>
       An example of a well-designed software I use is Google Maps. 
-       The first reason for this is the user interface. 
-       Google Maps has minimalistic design elements that make the software intuitive and user-friendly. 
-       The second reason is the real-time data and calculations it provides. 
-       The data provided to the user simplifies finding alternative routes, avoiding congestion to reach destinations faster, and informing users when speed traps and collisions are approaching. 
-       Lastly, the app is integrated with Google’s other services and third-party apps, enhancing its overall capability and practicality. 
-       Moreover, the design team for Google Maps is committed to the maintenance phase, as the app is updated regularly with new features and improvements. 
-       Overall, Google Maps has a user-friendly design with various features and continuous enhancements that make it a well-designed software that fulfills its purpose effectively.
-       </p>
-  </body>
-</html>
+      The first reason for this is the user interface. 
+      Google Maps has minimalistic design elements that make the software intuitive and user-friendly. 
+      The second reason is the real-time data and calculations it provides. 
+      The data provided to the user simplifies finding alternative routes, avoiding congestion to reach destinations faster, and informing users when speed traps and collisions are approaching. 
+      Lastly, the app is integrated with Google’s other services and third-party apps, enhancing its overall capability and practicality. 
+      Moreover, the design team for Google Maps is committed to the maintenance phase, as the app is updated regularly with new features and improvements. 
+      Overall, Google Maps has a user-friendly design with various features and continuous enhancements that make it a well-designed software that fulfills its purpose effectively.
+    </p>
+
+</div>
+
+<div id="News" class="tabcontent">
+
+   <h1>Writing Assignment 2</h1>
+  <h3>What happens in the requirements gathering stage and why is it important?</h3>
+  <p> 
+      The requirements collecting stage of the software development process focuses on defining and documenting the software's unique demands and objectives. 
+      During this stage, information is gathered from clients, users, and stakeholders to clearly explain what the program must do and accomplish. 
+      It's an important stage since it lays the groundwork for the entire software development process. 
+      Clear and detailed specifications serve as a road map for designers and developers, allowing them to make informed decisions about how to design and implement the product. 
+      The development team may lack a clear direction if requirements are not well-defined, resulting in confusion, delays, and potential rework. 
+      As a result, a thorough and rigorous requirements collecting step is critical to ensuring that the final software product corresponds with the customers' and users' expectations and objectives while limiting the chance of costly errors or misinterpretations during subsequent stages of development.
+  </p>
+
+  <hr>
+
+  <h3>5 user stories for Google Maps:</h3>
+  <p>
+      1.   As a daily commuter, I want real-time traffic information and alternate route suggestions to avoid congested areas and get to my destination as quickly as possible.
+  </p>  
+  <p>
+      2.   As a traveller to a new city, I want to explore surrounding points of interest and acquire directions to prominent attractions, restaurants, and landmarks so that I may make the most of my holiday while remaining as simple to navigate as possible.
+  </p>   <p>
+      3.   As a cautious driver, I'd like to be warned of imminent speed traps and traffic incidents along my route so that I can drive safely and avoid fines or accidents.
+  </p>   <p>
+      4.   As a frequent user of public transportation, I want to be able to obtain accurate bus and train schedules, as well as real-time arrival information, so that I can plan my trips and minimize waiting periods.
+  </p>   <p>
+      5.   As a smartphone user, I want Google Maps to seamlessly integrate with other apps, such as ride-sharing services and restaurant reservation systems, so that I can book rides and make reservations directly from the map interface, thus speeding up my travel experience.
+  </p>  
+
+</div>
+
+<div id="Contact" class="tabcontent">
+  
+</div>
+
+<div id="About" class="tabcontent">
+  
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
